@@ -1,0 +1,307 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+}
+
+.navbar2 {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+.navbar2 li {
+    list-style: none;
+    padding: 15px;
+    margin: -3px;
+}
+
+.navbar2 li a {
+    text-decoration: none;
+    padding: 1px;
+    margin: 1px;
+    color: seashell;
+}
+
+.lobo {
+    width: 103px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: solid white;
+    border-radius: 53px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7)url('photo-1613323441639-81fca5a03e3e.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.box-main {
+    padding: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: lightcyan;
+}
+
+.firstsection {
+    height: 120vh;
+}
+
+.firsthalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondhalf img {
+    border-radius: 50px;
+}
+
+.rightnav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+    margin: 12px;
+    background: none
+}
+
+.btn-sm {
+    padding: 5px;
+    background-blend-mode: none;
+}
+
+.aman {
+    display: flex;
+}
+
+.sharma {
+    padding: 12px;
+    margin: 10px;
+}
+
+.sharma4 {
+    padding: 12px;
+    margin: 10px;
+}
+
+.dr {
+    width: 483px;
+    border: black;
+    border-radius: 336px;
+    height: 62%;
+}
+
+.dr2 {
+    padding: 5px;
+    margin: 78px;
+    height: 50%;
+    width: 50%;
+    border-radius: 1092px;
+}
+
+.sharma5 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.sharma6 {
+    padding: 18px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    text-align-last: left;
+}
+
+.sharma9 {
+    padding: 12px;
+    margin: 10px;
+}
+
+.sharma11 {
+    padding: 15px;
+    margin: 12px;
+}
+
+.sharma14 {
+    padding: 15px;
+    margin: 11px;
+}
+
+.sharma12 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.sharma14 {
+    font-size: 100%;
+    color: #8A2BE2;
+}
+
+.sharma15 {
+    padding: 20px;
+    margin: 15px;
+    display: flex;
+}
+
+.sharma17 {
+    border-radius: 330px;
+}
+
+.sharma18 {}
+
+.sharma19 {
+    padding: 20px;
+    margin: 15px;
+}
+
+.sharma16 {}
+
+
+/* Three columns side by side */
+
+.column {
+    float: left;
+    width: 31.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+
+/* Display the columns below each other instead of side by side on small screens */
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+
+/* Add some shadows to create a card effect */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Some left and right padding inside the container */
+
+.container {
+    padding: 0 16px;
+}
+
+
+/* Clear floats */
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+
+/* Container holding the image and the text */
+
+.container {
+    padding: 35px 16px;
+    BORDER-RADIUS: 180PX;
+    MARGIN: 70px;
+}
+
+
+/* Bottom right text */
+
+.text-block {
+    bottom: 20px;
+    right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* adding new css here  */
+
+.sz {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgb(110, 235, 172) !important;
+}
+
+#sz1.sz {
+    font-size: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.sharma30 {
+    padding: 15px;
+    margin: 8px;
+    color: seagreen;
+}
+
+.sharma31 {
+    padding: 15px;
+    margin: 8px;
+}
+
+.sharma34 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 8px;
+}
