@@ -41,10 +41,10 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7)url('photo-1613323441639-81fca5a03e3e.jpg');
+    background: rgba(0, 0, 0, 0.7)url('img/photo-1613323441639-81fca5a03e3e.jpg');
     background-size: cover;
     background-blend-mode: darken;
-}
+} 
 
 .box-main {
     padding: 102px;
